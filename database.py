@@ -2,7 +2,7 @@ import psycopg2
 
 
 # Connection
-conn = psycopg2.connect(user = "postgres", password = "Gre_Database_1963_@", host = "localhost", port = "5432", database = "assignment2")
+conn = psycopg2.connect("postgres://admin:Vg73NQVC8q7aKSxz2h1TSdaDn5js6lJZ@dpg-cdtjkc1a6gdu24a3t650-a.oregon-postgres.render.com/assignment2_2y3p")
 cursor = conn.cursor()
     
 # CREATE
